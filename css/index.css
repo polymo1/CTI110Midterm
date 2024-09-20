@@ -4,3 +4,17 @@
     CTI 110 LB1
     Midterm Project
 */
+
+#red a:hover {
+    
+    color: "red";
+}
+
+#pagetitle {
+    text-align: center;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
