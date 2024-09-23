@@ -18,3 +18,15 @@ body {
     margin-left: 15%;
     margin-right: 15%;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#dunncampusimg {
+    height: 400px;
+    width: auto;
+}
