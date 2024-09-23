@@ -26,6 +26,10 @@ body {
   width: 50%;
 }
 
+.centertext {
+  text-align: center;
+}
+
 #dunncampusimg {
     height: 400px;
     width: auto;
