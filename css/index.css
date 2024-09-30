@@ -40,21 +40,38 @@ body {
 }
 
 #dunncampusimg {
-    height: 400px;
+    max-height: 400px;
     width: auto;
 }
 
 #serversimg {
-    height: 400px;
+    max-height: 400px;
     width: auto;
 }
 
 #sidestoreimg {
-    height: 400px;
+    max-height: 400px;
     width: auto;
 }
 
 #ccodeimg {
-    height: 400px;
+    max-height: 400px;
     width: auto;
 }
+
+.left{
+    float: left;
+    width: 15%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: right;
+    width: 85%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
