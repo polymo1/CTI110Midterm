@@ -5,6 +5,15 @@
     Midterm Project
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
 #red a:hover {
     
     color: "red";
@@ -31,6 +40,16 @@ body {
 }
 
 #dunncampusimg {
+    height: 400px;
+    width: auto;
+}
+
+#serversimg {
+    height: 400px;
+    width: auto;
+}
+
+#sidestoreimg {
     height: 400px;
     width: auto;
 }
